@@ -179,7 +179,27 @@ function sha256js(ascii){
 
 /* ================= kode akses: hanya HASH yang disimpan di aplikasi ================= */
 const KODE_HASH = [
-  "38939ff1f2ed807350e5980387f01bf234dbb61e7be03c9237f909ff5ee2ef3d"
+  "38939ff1f2ed807350e5980387f01bf234dbb61e7be03c9237f909ff5ee2ef3d",
+  "f446999f02521f88e59453634061532995ed30bb5b805e25a4015109e0afe3db",
+  "3a05b2ffee32061c7eff561a4679f1725273beb95a519d235aa8e5a12241e37c",
+  "b3237191cd0322d6e1c3a272e0949c255392d378e3b13964effb10d5fc9bf62f",
+  "3a9a0d9e124e5ce0f2fee46f2a065966cde413b6a797ca584e38d60c52ba89b1",
+  "9b8c6a6f72f35e60203c16c30dfb942a4bd6916258ef60d7a51aabcdcb349391",
+  "0b82ad0e0622f417b62637db3b76f34a68e41973ae66fd31f4a78bdd1f47aba8",
+  "66962291e44ffe0ebd3abf22a59629ac3d5452c6131eb375138d04b4d3d0ac2f",
+  "00fa81528b7f87027c741c075f152d4b18806b791fa56862bb9ff33a8aafffe9",
+  "aa03f638078f8bcf4a73e6a262b2774ac3d235461a437f4e307aaf7e965ef9a9",
+  "2af49dc8e2d7cad87ebf95b8a8501adc0f68d406a463fce14b6232e4b6a60f7e",
+  "00f686cd160ebfa8ece968a916e3207a294efb0ed508fd51cd3c1bdb7d090ad8",
+  "1884a9ce329373852f93e9ce38c060355564a0bce3ea4a3de76d2bea4f0f010f",
+  "203fcba73aaa10db5f3252ce655b5af15d59a5a102cd5ebece9ce7d9dba38cf3",
+  "0be77950022d95f7ff033df63a00c6437933b6b0f4ec1d2d1611052a900c619a",
+  "a8ff10510fc526627eb28d47ac5ec4c956c1802db995a0a677a23e513a0ea1d5",
+  "491bf0861133dd39ff277c40d113513628a6e072a7901d167f86dbbc70eaa2bf",
+  "119d86bb6543d0d9eebb207cacff74fb89cbdc832a75aa8251f20c0a64413dba",
+  "f66ee5591995279a44cb1cda6577a45fcdd271b38dc77a545ea57e8e70dd2514",
+  "47325bea78a29704394384e53844ad474481ef25d3a13fb0dd259f04331d200d",
+  "3a30ceb47f5ca38ea12f9441210cf8bd1608c5ef660072a65e79675970fe4e31"
 ];
 
 /* ================= struktur topik sesuai kisi-kisi ================= */
@@ -639,7 +659,8 @@ function renderBeranda(){
     html += `<p class="note">Versi demo membuka Tryout Mini dan topik pertama tiap mapel. Masukkan kode akses untuk membuka semua topik dan Tryout Utuh.</p>
     <div class="sejajar"><input class="kode" id="inputKode" type="text" maxlength="12" placeholder="TKA9-XXXXXX" autocomplete="off">
     <button class="btn" id="btnKode">Buka</button></div>
-    <p class="pesan" id="pesanKode"></p>`;
+    <p class="pesan" id="pesanKode"></p>
+    <div class="tumpuk"><a class="btn" href="https://lynk.id/ceritamahda/lq2r5d2o8gk6" target="_blank" rel="noopener" style="display:block;text-align:center;text-decoration:none">🛒 Beli Kode Akses — Rp99.000</a></div>`;
   }
   html += `<div class="tumpuk"><button class="btn bahaya" id="btnReset">🗑️ Hapus Semua Progres</button></div></div>`;
   $app.innerHTML = html;

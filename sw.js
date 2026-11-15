@@ -1,5 +1,5 @@
 /* Latihan TKA Kelas 9 — service worker: cache-first untuk aset sendiri */
-const CACHE = "latihan-tka-kelas9-v2";
+const CACHE = "latihan-tka-kelas9-v3";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg"];
 
 self.addEventListener("install", ev => {
